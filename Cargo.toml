@@ -1,5 +1,5 @@
 [workspace]
 members = [
-    "src/konkurs_project_backend"
+    "src/dzien2_backend"
 ]
 resolver = "2"

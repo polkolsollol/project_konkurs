@@ -1,19 +1,19 @@
 {
   "canisters": {
-    "konkurs_project_backend": {
-      "candid": "src/konkurs_project_backend/konkurs_project_backend.did",
-      "package": "konkurs_project_backend",
+    "dzien2_backend": {
+      "candid": "src/dzien2_backend/dzien2_backend.did",
+      "package": "dzien2_backend",
       "type": "rust"
     },
-    "konkurs_project_frontend": {
+    "dzien2_frontend": {
       "dependencies": [
-        "konkurs_project_backend"
+        "dzien2_backend"
       ],
       "source": [
-        "src/konkurs_project_frontend/dist"
+        "src/dzien2_frontend/dist"
       ],
       "type": "assets",
-      "workspace": "konkurs_project_frontend"
+      "workspace": "dzien2_frontend"
     }
   },
   "defaults": {
