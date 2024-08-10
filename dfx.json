@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "konkurs_project_backend": {
+      "candid": "src/konkurs_project_backend/konkurs_project_backend.did",
+      "package": "konkurs_project_backend",
+      "type": "rust"
+    },
+    "konkurs_project_frontend": {
+      "dependencies": [
+        "konkurs_project_backend"
+      ],
+      "source": [
+        "src/konkurs_project_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "konkurs_project_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

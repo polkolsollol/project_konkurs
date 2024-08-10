@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/konkurs_project_backend"
+]
+resolver = "2"
